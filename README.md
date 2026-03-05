@@ -1,11 +1,10 @@
 # NetDevOps入门
 
-Git使用指导
-==============
-1. echo "# NetDevOps" >> README.md
+##Git使用指导
+1. `echo "# NetDevOps" >> README.md`
 字面意思：把 # NetDevOps 这行文字，写入到一个名叫 README.md 的文件中。
 大白话解释：这是在写项目说明书。它会在你的当前文件夹里创建一个文件，里面写着一行大标题叫 "NetDevOps"。就像你买了个新本子，在第一页写上了名字。
-2. git init
+2. `git init`
 字面意思：初始化（Initialize）Git 仓库。
 大白话解释：告诉你的电脑：“从现在开始，请在这个文件夹里开启 Git 监控系统”。敲完这行命令后，文件夹里会多出一个隐藏的 .git 文件夹，此时本地仓库就建好了。
 3. git add README.md
